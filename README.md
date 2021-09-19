@@ -34,3 +34,5 @@ wpscan --url www.example.com --wordlist wordlist.txt --username admin;
 
 * Selection of the password using the username ligament / password with the number of streams of 50:
 wpscan --url www.example.com --wordlist wordlist.txt --threads 50
+
+Famous wordlist for brute force -- https://github.com/danielmiessler/SecLists
