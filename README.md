@@ -1,4 +1,26 @@
 # wordpress1
+
+
+My google dork has been published now.
+
+inurl:wp-config.php.save
+
+Exploitation scenario:
+(This is the exact scenario of my recent finding)
+
+1. *.target[.]com/phpmyadmin
+(Asking for username & password)
+
+2. *.target[.]com/wp-config.php
+(Blank page, got nothing)
+
+3. *.target[.]com/wp-config.php.save
+(Found database credential)
+
+4. Applied on Step-1
+(Access granted)
+
+
 cheetsheet for wordpress
 
 Version and theme detection using http-wordpress-info script
